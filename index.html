@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <link href="style.css" rel="stylesheet" type="text/css"/>
-
-  <script>
-    
-  </script>
+  <script src="script.js"></script>
   
   <head>
     <title>Jim Crow Laws</title>
     <link rel="icon" type="image/png" href="https://em-content.zobj.net/source/twitter/351/black-bird_1f426-200d-2b1b.png">
-    
   </head>
   <body>
-    <img id="header" src="assets/headers/JIM-CROW-LAWS-4-14-2025.png">
+    <div id="header">
+      <h2 id="jimCrowHeader">Jim Crow Laws</h2>
+      <div id="buttonsDiv">
+        <button onclick="changeContent(mainContent)" id="main" class="headerButtons">Main</button>
+        <button onclick="changeContent(sourcesContent)" id="sources" class="headerButtons">Sources</button>
+        <button onclick="changeContent(creditsContent)" id="credits" class="headerButtons">Credits</button>
+      </div>
+    </div>
+    <div id="mainContent" class="contentPage" style="display: block;">
+      This is the Main Content
+    </div>
+    <div id="sourcesContent" class="contentPage" style="display: none;">
+      This is the Sources Content
+    </div>
+    <div id="creditsContent" class="contentPage" style="display: none;">
+      This is the Credits Content
+    </div>
   </body>
 </html>

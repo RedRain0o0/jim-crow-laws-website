@@ -1,3 +1,37 @@
-.paragraph {
-  text-color: #fff;
+#header {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 70px;
+}
+
+#buttonsDiv {
+  position: absolute;
+  left: 200px;
+  top: 15px;
+}
+
+.headerButtons {
+  height: 40px;
+  width: 80px;
+}
+
+.contentPage {
+  position: absolute;
+  left: 0%;
+  top: 70px;
+  width: 100%;
+}
+
+#mainContent {
+  background-color: #0ff;
+}
+
+#sourcesContent {
+  background-color: #f0f;
+}
+
+#creditsContent {
+  background-color: #ff0;
 }
