@@ -76,15 +76,3 @@
   width: 100%;
   font-family: 'UbuntuRegular';
 }
-
-#mainContent {
-  background-color: #0ff;
-}
-
-#sourcesContent {
-  background-color: #f0f;
-}
-
-#creditsContent {
-  background-color: #ff0;
-}
