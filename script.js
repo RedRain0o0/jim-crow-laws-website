@@ -10,18 +10,20 @@ function changeContent(content) {
 }
 
 function dropdownTo(dropdown) {
-  dropdownE = document.getElementById(dropdown);
-  p1Content = document.getElementById('p1Content');
-  p2Content = document.getElementById('p2Content');
-  p3Content = document.getElementById('p3Content');
+  dropdown = document.getElementById(dropdown);
+  introContent = document.getElementById('introContent');
+  stereoContent = document.getElementById('stereoContent');
+  segregContent = document.getElementById('segregContent');
+  mixedContent = document.getElementById('mixedContent');
   mainContent = document.getElementById('mainContent');
   sourcesContent = document.getElementById('sourcesContent');
   creditsContent = document.getElementById('creditsContent');
   mainContent.style.display = "block";
   sourcesContent.style.display = "none";
   creditsContent.style.display = "none";
-  p1Content.style.display = "none";
-  p2Content.style.display = "none";
-  p3Content.style.display = "none";
-  dropdownE.style.display = "block";
+  introContent.style.display = "none";
+  stereoContent.style.display = "none";
+  segregContent.style.display = "none";
+  mixedContent.style.display = "none";
+  dropdown.style.display = "block";
 }
