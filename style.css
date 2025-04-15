@@ -9,6 +9,7 @@
   top: 0%;
   width: 100%;
   height: 70px;
+  background-color: #ddd;
 }
 
 #jimCrowHeader {
@@ -17,6 +18,13 @@
 }
 
 #buttonsDiv {
+  position: absolute;
+  left: 200px;
+  top: 15px;
+}
+
+
+#dropdownDiv {
   position: absolute;
   left: 200px;
   top: 15px;
@@ -64,6 +72,12 @@
   display: block;
 }
 
+#buttonsDivNDD {
+  position: absolute;
+  left: 284px;
+  top: 15px;
+}
+
 .headerButtons {
   height: 40px;
   width: 80px;
@@ -71,8 +85,10 @@
 
 .contentPage {
   position: absolute;
-  left: 0%;
+  left: 0px;
   top: 70px;
-  width: 100%;
+  width: calc(100% - 40px);
   font-family: 'UbuntuRegular';
+  margin: 20px;
+  margin-top: 10px;
 }
