@@ -10,7 +10,7 @@ function changeContent(content) {
 }
 
 function dropdownTo(dropdown) {
-  dropdown = document.getElementById(dropdown);
+  dropdownE = document.getElementById(dropdown);
   p1Content = document.getElementById('p1Content');
   p2Content = document.getElementById('p2Content');
   p3Content = document.getElementById('p3Content');
@@ -23,5 +23,5 @@ function dropdownTo(dropdown) {
   p1Content.style.display = "none";
   p2Content.style.display = "none";
   p3Content.style.display = "none";
-  dropdown.style.display = "block";
+  dropdownE.style.display = "block";
 }
