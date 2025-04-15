@@ -16,9 +16,9 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a onclick="dropdownTo(p1Content)">Paragraph 1</a>
+            <a onclick="dropdownTo(p2Content)">Paragraph 2</a>
+            <a onclick="dropdownTo(p3Content)">Paragraph 3</a>
           </div>
         </div>
         <!--button onclick="changeContent('mainContent')" id="main" class="headerButtons">Main</button-->
@@ -26,9 +26,17 @@
         <button onclick="changeContent('creditsContent')" id="credits" class="headerButtons">Credits</button>
       </div>
     </div>
-    <div id="mainContent" class="contentPage" style="display: block;">
-      This is the Main Content
-    </div>
+    <div id="mainContent" style="display: block;">
+      <div id="p1Content" class="contentPage" style="display: block;">
+        This is Paragraph 1
+      </div>
+      <div id="p2Content" class="contentPage" style="display: block;">
+        This is Paragraph 2
+      </div>
+      <div id="p3Content" class="contentPage" style="display: block;">
+        This is Paragraph 3
+      </div>
+    </div>div>
     <div id="sourcesContent" class="contentPage" style="display: none;">
       This is the Sources Content
     </div>
