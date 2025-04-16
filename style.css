@@ -1,9 +1,19 @@
+#bgGradient {
+  background-image: linear-gradient(#fff, #eee);
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 70px);
+}
+
 @font-face {
   font-family: 'UbuntuRegular';
   src: url('assets/fonts/Ubuntu-Regular.ttf');
 }
 
 #header {
+  background-image: linear-gradient(#ddd, #ccc);
   position: absolute;
   left: 0%;
   top: 0%;
@@ -15,6 +25,13 @@
 #jimCrowHeader {
   position: absolute;
   left: 20px;
+}
+
+#camdenSpecial {
+  position: absolute;
+  left: 9px;
+  top: 12px;
+  height: 45px;
 }
 
 #buttonsDiv {
@@ -86,9 +103,23 @@
 .contentPage {
   position: absolute;
   left: 0px;
-  top: 70px;
+  top: 0px;
   width: calc(100% - 40px);
   font-family: 'UbuntuRegular';
   margin: 20px;
   margin-top: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.sourceFavi {
+  position: relative;
+  top: 3px;
+  height: 18px;
+}
+
+.source {
+  font-size: 18px;
 }

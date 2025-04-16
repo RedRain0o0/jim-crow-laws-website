@@ -31,3 +31,14 @@ function dropdownTo(dropdown) {
   mixedContent.style.display = "none";
   dropdown.style.display = "block";
 }
+
+function camdenSpecial() {
+  jimCrowHeader = document.getElementById('jimCrowHeader');
+  camdenSpecial = document.getElementById('camdenSpecial');
+  console.log("Blame Camden");
+  console.log("(also ignore the errors when trying to toggle back idk why its broken)");
+  if (camdenSpecial.style.display === "none") {
+    camdenSpecial.style.display = "block";
+    jimCrowHeader.style.display = "none";
+  }
+}
