@@ -11,6 +11,7 @@ function changeContent(content) {
   content.style.display = "block";
 }
 
+
 function dropdownTo(dropdown) {
   dropdown = document.getElementById(dropdown);
   introContent = document.getElementById('introContent');
