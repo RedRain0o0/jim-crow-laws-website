@@ -1,11 +1,11 @@
 function changeContent(content) {
   content = document.getElementById(content);
   mainContent = document.getElementById('mainContent');
-  apaContent = document.getElementById('apaContent');
+  theendContent = document.getElementById('theendContent');
   sourcesContent = document.getElementById('sourcesContent');
   creditsContent = document.getElementById('creditsContent');
   mainContent.style.display = "none";
-  apaContent.style.display = "none";
+  theendContent.style.display = "none";
   sourcesContent.style.display = "none";
   creditsContent.style.display = "none";
   content.style.display = "block";
@@ -18,11 +18,11 @@ function dropdownTo(dropdown) {
   segregContent = document.getElementById('segregContent');
   mixedContent = document.getElementById('mixedContent');
   mainContent = document.getElementById('mainContent');
-  apaContent = document.getElementById('apaContent');
+  theendContent = document.getElementById('theendContent');
   sourcesContent = document.getElementById('sourcesContent');
   creditsContent = document.getElementById('creditsContent');
   mainContent.style.display = "block";
-  apaContent.style.display = "none";
+  theendContent.style.display = "none";
   sourcesContent.style.display = "none";
   creditsContent.style.display = "none";
   introContent.style.display = "none";
